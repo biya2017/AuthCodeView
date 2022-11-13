@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="captcha_input_text">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/bg_captcha_input</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLength">1</item>
+    </style>
+
+    <declare-styleable name="PasswordInputView">
+        <attr name="captchaBorderWidth" format="dimension"/>
+        <attr name="captchaBorderColor" format="color"/>
+        <attr name="captchaBorderRadius" format="dimension"/>
+        <attr name="captchaLength" format="integer"/>
+        <attr name="captchaWidth" format="dimension"/>
+        <attr name="captchaColor" format="color"/>
+        <attr name="captchaRadius" format="dimension"/>
+        <attr name="captchaViewSize" format="dimension"/>
+        <attr name="captchaTextSize" format="dimension"/>
+        <attr name="captchaViewPadding" format="dimension"/>
+    </declare-styleable>
+</resources>
